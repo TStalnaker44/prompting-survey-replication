@@ -1,0 +1,77 @@
+{
+    "Default Question Block": {
+        "Q1": {
+            "question": "Single Select",
+            "type": "single-select",
+            "qual_name": "Q1",
+            "options": [
+                "a",
+                "b",
+                "c"
+            ]
+        },
+        "Q2": {
+            "question": "Single Select with Other",
+            "type": "single-select-with-other",
+            "qual_name": "Q2",
+            "options": [
+                "d",
+                "e",
+                "f",
+                "Other"
+            ]
+        },
+        "Q3": {
+            "question": "Multi Select",
+            "type": "multi-select",
+            "qual_name": "Q3",
+            "options": [
+                "g",
+                "h",
+                "i"
+            ]
+        },
+        "Q4": {
+            "question": "Multi Select with Text Entry",
+            "type": "multi-select-with-text-entry",
+            "qual_name": "Q4",
+            "options": [
+                "j",
+                "k",
+                "l",
+                "Other"
+            ]
+        },
+        "Q5": {
+            "question": "Ranked",
+            "type": "ranked",
+            "qual_name": "Q5",
+            "options": [
+                "Option 1",
+                "Option 2",
+                "Option 3"
+            ]
+        },
+        "Q6": {
+            "question": "Ranked with Other",
+            "type": "ranked-with-other",
+            "qual_name": "Q6",
+            "options": [
+                "Option 4",
+                "Option 5",
+                "Option 6",
+                "Other"
+            ]
+        },
+        "Q7": {
+            "question": "Ranked with Other 2",
+            "type": "ranked-with-other",
+            "qual_name": "Q7",
+            "options": [
+                "Other",
+                "This is an option",
+                "why tho"
+            ]
+        }
+    }
+}

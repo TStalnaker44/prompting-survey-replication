@@ -1,0 +1,871 @@
+{
+    "Consent": {
+        "CF2": {
+            "question": "YOU ARE MAKING A DECISION WHETHER OR NOT TO PARTICIPATE. IF YOU WANT TO PARTICIPATE, PLEASE SELECT THE \"AGREE\" OPTION BELOW, AND START THE SURVEY.",
+            "type": "single-select",
+            "qual_name": "CF2",
+            "options": [
+                "I agree to participate in the described study.",
+                "I do not agree to participate in the described study."
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": true
+        }
+    },
+    "Demographics": {
+        "D1": {
+            "question": "In which country do you currently reside?",
+            "type": "multi-select",
+            "qual_name": "country",
+            "options": [
+                "Afghanistan",
+                "Albania",
+                "Algeria",
+                "Andorra",
+                "Angola",
+                "Antigua and Barbuda",
+                "Argentina",
+                "Armenia",
+                "Australia",
+                "Austria",
+                "Azerbaijan",
+                "Bahamas",
+                "Bahrain",
+                "Bangladesh",
+                "Barbados",
+                "Belarus",
+                "Belgium",
+                "Belize",
+                "Benin",
+                "Bhutan",
+                "Bolivia",
+                "Bosnia and Herzegovina",
+                "Botswana",
+                "Brazil",
+                "Brunei Darussalam",
+                "Bulgaria",
+                "Burkina Faso",
+                "Burundi",
+                "Cambodia",
+                "Cameroon",
+                "Canada",
+                "Cape Verde",
+                "Central African Republic",
+                "Chad",
+                "Chile",
+                "China",
+                "Colombia",
+                "Comoros",
+                "Congo, Republic of the...",
+                "Costa Rica",
+                "Côte d'Ivoire",
+                "Croatia",
+                "Cuba",
+                "Cyprus",
+                "Czech Republic",
+                "Democratic Republic of the Congo",
+                "Denmark",
+                "Djibouti",
+                "Dominica",
+                "Dominican Republic",
+                "Ecuador",
+                "Egypt",
+                "El Salvador",
+                "Equatorial Guinea",
+                "Eritrea",
+                "Estonia",
+                "Ethiopia",
+                "Fiji",
+                "Finland",
+                "France",
+                "Gabon",
+                "Gambia",
+                "Georgia",
+                "Germany",
+                "Ghana",
+                "Greece",
+                "Grenada",
+                "Guatemala",
+                "Guinea",
+                "Guinea-Bissau",
+                "Guyana",
+                "Haiti",
+                "Honduras",
+                "Hong Kong (S.A.R.)",
+                "Hungary",
+                "Iceland",
+                "India",
+                "Indonesia",
+                "Iran",
+                "Iraq",
+                "Ireland",
+                "Israel",
+                "Italy",
+                "Jamaica",
+                "Japan",
+                "Jordan",
+                "Kazakhstan",
+                "Kenya",
+                "Kiribati",
+                "Kuwait",
+                "Kyrgyzstan",
+                "Lao People's Democratic Republic",
+                "Latvia",
+                "Lebanon",
+                "Lesotho",
+                "Liberia",
+                "Libyan Arab Jamahiriya",
+                "Liechtenstein",
+                "Lithuania",
+                "Luxembourg",
+                "Madagascar",
+                "Malawi",
+                "Malaysia",
+                "Maldives",
+                "Mali",
+                "Malta",
+                "Marshall Islands",
+                "Mauritania",
+                "Mauritius",
+                "Mexico",
+                "Micronesia, Federated States of...",
+                "Monaco",
+                "Mongolia",
+                "Montenegro",
+                "Morocco",
+                "Mozambique",
+                "Myanmar",
+                "Namibia",
+                "Nauru",
+                "Nepal",
+                "Netherlands",
+                "New Zealand",
+                "Nicaragua",
+                "Niger",
+                "Nigeria",
+                "North Korea",
+                "Norway",
+                "Oman",
+                "Pakistan",
+                "Palau",
+                "Panama",
+                "Papua New Guinea",
+                "Paraguay",
+                "Peru",
+                "Philippines",
+                "Poland",
+                "Portugal",
+                "Qatar",
+                "Republic of Moldova",
+                "Romania",
+                "Russian Federation",
+                "Rwanda",
+                "Saint Kitts and Nevis",
+                "Saint Lucia",
+                "Saint Vincent and the Grenadines",
+                "Samoa",
+                "San Marino",
+                "Sao Tome and Principe",
+                "Saudi Arabia",
+                "Senegal",
+                "Serbia",
+                "Seychelles",
+                "Sierra Leone",
+                "Singapore",
+                "Slovakia",
+                "Slovenia",
+                "Solomon Islands",
+                "Somalia",
+                "South Africa",
+                "South Korea",
+                "Spain",
+                "Sri Lanka",
+                "Sudan",
+                "Suriname",
+                "Swaziland",
+                "Sweden",
+                "Switzerland",
+                "Syrian Arab Republic",
+                "Tajikistan",
+                "Thailand",
+                "The former Yugoslav Republic of Macedonia",
+                "Timor-Leste",
+                "Togo",
+                "Tonga",
+                "Trinidad and Tobago",
+                "Tunisia",
+                "Turkey",
+                "Turkmenistan",
+                "Tuvalu",
+                "Uganda",
+                "Ukraine",
+                "United Arab Emirates",
+                "United Kingdom of Great Britain and Northern Ireland",
+                "United Republic of Tanzania",
+                "United States of America",
+                "Uruguay",
+                "Uzbekistan",
+                "Vanuatu",
+                "Venezuela, Bolivarian Republic of...",
+                "Viet Nam",
+                "Yemen",
+                "Zambia",
+                "Zimbabwe"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "D2": {
+            "question": "How many years of experience in software development do you have?",
+            "type": "single-text",
+            "qual_name": "D1",
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "D3": {
+            "question": "Please indicate which domains you have developed software for (e.g., banking or healthcare).",
+            "type": "single-text",
+            "qual_name": "D2",
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "D4": {
+            "question": "How would you describe your software engineering role(s)? (Select all that apply)",
+            "type": "multi-select-with-text-entry",
+            "qual_name": "D3",
+            "options": [
+                "Programmer",
+                "Tester",
+                "Project Technical Lead",
+                "Project Manager",
+                "IT Manager",
+                "Consultant",
+                "Educator",
+                "Researcher",
+                "Analyst",
+                "Software Architect",
+                "Other (please specify)"
+            ],
+            "text-entry-fields": [
+                "Other (please specify)"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "D5": {
+            "question": "What types of systems do you have significant experience developing? (Select all that apply.)",
+            "type": "multi-select-with-text-entry",
+            "qual_name": "D7",
+            "options": [
+                "Operating systems",
+                "Web applications",
+                "Mobile applications",
+                "Desktop applications",
+                "Middleware",
+                "AI-intensive systems",
+                "Development tools (compilers, programming languages, etc.)",
+                "Libraries/frameworks",
+                "Others (please specify)"
+            ],
+            "text-entry-fields": [
+                "Others (please specify)"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "D6": {
+            "question": "Which of these languages do you regularly create code in? (Select all that apply)",
+            "type": "multi-select-with-text-entry",
+            "qual_name": "Q59",
+            "options": [
+                "Python",
+                "C++",
+                "C",
+                "Java",
+                "C#",
+                "JavaScript",
+                "Go",
+                "Basic",
+                "Pascal",
+                "SQL",
+                "Others (please specify)"
+            ],
+            "text-entry-fields": [
+                "Others (please specify)"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "D7": {
+            "question": "Have you used or do you use prompt-integrated generative AI tools to assist with software development? <b> (An AI Tool being \"prompt-integrated\" means that you, the user, can be actively involved in constructing a prompt to guide the tool’s output, rather than the tool exclusively running in the background. For the rest of this survey, any mention of generative AI implies a prompt-integrated tool.)</b>",
+            "type": "single-select",
+            "qual_name": "Q178",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        }
+    },
+    "AI Experience, Tools, Development Workflow": {
+        "E1": {
+            "question": "How would you rate your personal skill level at using generative AI?",
+            "type": "single-select",
+            "qual_name": "Q179",
+            "options": [
+                "0 - No skill",
+                "1 - Minimum proficiency: I can access and interact with generative AI tools",
+                "2 - Somewhat proficient: I find AI tools occasionally useful, but limited and unreliable",
+                "3 - Proficient: I can use AI to effectively assist in some way for most tasks",
+                "4 - Very proficient: With time, I can almost always get the desired output for most tasks",
+                "5 - Maximum proficiency: I can efficiently obtain desired output for any task"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "E2": {
+            "question": "Which of these software engineering tasks <b>do you regularly use</b> AI to assist with? (Select all that apply)",
+            "type": "multi-select",
+            "qual_name": "Q180",
+            "options": [
+                "Code Generation",
+                "Code Refactoring",
+                "Software Testing ",
+                "Code Debugging",
+                "Code Documentation",
+                "Code Review"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "E3": {
+            "question": "Which of these prompt-integrated AI tools <b>do you regularly use</b> to assist with software engineering tasks? (Select all that apply)",
+            "type": "multi-select-with-text-entry",
+            "qual_name": "C3",
+            "options": [
+                "ChatGPT",
+                "Claude",
+                "Gemini",
+                "Grok",
+                "Deepseek-R1",
+                "Others (please specify)",
+                "AI-integrated IDE (e.g. Windsurf) (please specify)",
+                "Llama",
+                "Copilot"
+            ],
+            "text-entry-fields": [
+                "Others (please specify)",
+                "AI-integrated IDE (e.g. Windsurf) (please specify)"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "E4": {
+            "question": "How, if at all, does your development workflow incorporate AI tools? (Select all that apply)",
+            "type": "multi-select-with-text-entry",
+            "qual_name": "Q182",
+            "options": [
+                "Web interfaces",
+                "IDE plugins/extensions",
+                "Command line tools",
+                "API integration with development pipelines",
+                "My workflow does not incorporate AI tools",
+                "Other (please specify):"
+            ],
+            "text-entry-fields": [
+                "Other (please specify):"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "E5": {
+            "question": "Approximately how often do you use generative AI tools when working on software engineering tasks?",
+            "type": "single-select",
+            "qual_name": "Q181",
+            "options": [
+                "Multiple times daily",
+                "Once daily",
+                "A few times per week",
+                "A few times per month",
+                "Rarely"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "E6": {
+            "question": "How, if at all, has using AI tools affected your productivity as a developer?",
+            "type": "single-select",
+            "qual_name": "Q184",
+            "options": [
+                "Significantly decreased productivity",
+                "Slightly decreased productivity",
+                "No noticeable change",
+                "Slightly increased productivity",
+                "Significantly increased productivity"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "E7": {
+            "question": "Have AI tools changed your approach to software development, compared to developing software without AI tools?",
+            "type": "single-select",
+            "qual_name": "Q57",
+            "options": [
+                "Yes",
+                "No",
+                "Unsure"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "E8": {
+            "question": "How has your use of AI tools changed your approach to software development? (Please respond as briefly or as fully as you'd like; any insights are appreciated.)",
+            "type": "short-answer",
+            "qual_name": "C4",
+            "coded": true,
+            "contains_pii": false,
+            "convert_to_range": false,
+            "ignore": false
+        }
+    },
+    "Techniques for Prompting": {
+        "T1": {
+            "question": "Please rate your familiarity with the following prompting strategies:",
+            "type": "matrix",
+            "qual_name": "Q58",
+            "options": [
+                "Few-Shot Learning - Providing examples to guide generation",
+                "Output Automator - Generate scripts to implement the AI-suggested solutions",
+                "Meta-prompting - Having AI suggest better prompts for specific tasks",
+                "Meta Language Creation - Adjusts/Adds specific semantics to words, phrases, or symbols in the prompt",
+                "Output Style - Make the AI’s output follow a particular format or style",
+                "Persona - Ask AI to complete a task while acting as a certain role or character",
+                "Condition Check - Produce certain type(s) of output when specific condition(s) are met"
+            ],
+            "answers": [
+                "Never heard of it",
+                "Heard of it but don't use",
+                "Use occasionally",
+                "Use regularly"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "T2": {
+            "question": "What specific information do you most often include when prompting AI to generate code? (Select all that apply)",
+            "type": "multi-select-with-text-entry",
+            "qual_name": "Q189",
+            "options": [
+                "Example inputs and expected outputs",
+                "Specific libraries or frameworks to use",
+                "Performance or optimization requirements",
+                "Implementation alternatives to consider or avoid",
+                "Error handling expectations",
+                "Target environment or deployment constraints",
+                "Description of existing codebase architecture",
+                "Desired code style and naming conventions",
+                "Others (please specify):"
+            ],
+            "text-entry-fields": [
+                "Others (please specify):"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "T3": {
+            "question": "Please elaborate on your prompting strategies for code generation (Optional)",
+            "type": "short-answer",
+            "qual_name": "Q191",
+            "coded": true,
+            "contains_pii": false,
+            "convert_to_range": false,
+            "ignore": false
+        },
+        "T4": {
+            "question": "What specific information do you most often include when prompting AI to refactor code? (Select all that apply)",
+            "type": "multi-select-with-text-entry",
+            "qual_name": "Q192",
+            "options": [
+                "The original code with explanatory comments",
+                "Unit tests demonstrating expected behavior",
+                "Description of current issues and refactoring goals",
+                "Architectural constraints and style guidelines",
+                "Examples of similar code you consider well-structured",
+                "Code that should remain unchanged during refactoring",
+                "Specific refactoring patterns to apply",
+                "Others (please specify):",
+                "Performance requirements or benchmarks"
+            ],
+            "text-entry-fields": [
+                "Others (please specify):"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "T5": {
+            "question": "Please elaborate on your prompting strategies for code refactoring (Optional)",
+            "type": "short-answer",
+            "qual_name": "Q195",
+            "coded": false,
+            "contains_pii": false,
+            "convert_to_range": false,
+            "ignore": false
+        },
+        "T6": {
+            "question": "What specific information do you most often include when prompting AI to create or improve tests? (Select all that apply)",
+            "type": "multi-select-with-text-entry",
+            "qual_name": "Q196",
+            "options": [
+                "Code to be tested with specifications",
+                "Edge cases and expected behaviors",
+                "Testing framework preferences and assertion styles",
+                "Test coverage goals and requirements",
+                "Existing test suite examples",
+                "Mocking or dependency handling instructions",
+                "Environment setup requirements",
+                "Performance or resource constraints for tests",
+                "Other (please specify):",
+                "Examples of test cases (inputs-output mappings)"
+            ],
+            "text-entry-fields": [
+                "Other (please specify):"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "T7": {
+            "question": "Please elaborate on your prompting strategies for software testing (Optional)",
+            "type": "short-answer",
+            "qual_name": "Q198",
+            "coded": false,
+            "contains_pii": false,
+            "convert_to_range": false,
+            "ignore": false
+        },
+        "T8": {
+            "question": "What specific information do you most often include when prompting AI to help with debugging or program repair? (Select all that apply)",
+            "type": "multi-select-with-text-entry",
+            "qual_name": "Q199",
+            "options": [
+                "Full error messages and stack traces",
+                "Steps to reproduce the issue",
+                "Environment details and configurations",
+                "Previously attempted solutions",
+                "Related logs or console output",
+                "Version control history or recent changes",
+                "System architecture or component interactions",
+                "Screenshots or visual evidence of the issue",
+                "Other (please specify):"
+            ],
+            "text-entry-fields": [
+                "Other (please specify):"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "T9": {
+            "question": "Please elaborate on your prompting strategies for code debugging (Optional)",
+            "type": "short-answer",
+            "qual_name": "Q201",
+            "coded": false,
+            "contains_pii": false,
+            "convert_to_range": false,
+            "ignore": false
+        },
+        "T10": {
+            "question": "What specific information do you most often include when prompting AI to create or improve documentation? (Select all that apply)",
+            "type": "multi-select-with-text-entry",
+            "qual_name": "Q202",
+            "options": [
+                "Code with functionality explanation",
+                "Target audience information and technical level",
+                "Examples of desired documentation style",
+                "Domain-specific terminology guidelines",
+                "Documentation format requirements",
+                "Existing documentation that needs updating",
+                "Usage examples and scenarios",
+                "Project standards and conventions",
+                "Other (please specify):"
+            ],
+            "text-entry-fields": [
+                "Other (please specify):"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "T11": {
+            "question": "Please elaborate on your prompting strategies for code documentation (Optional)",
+            "type": "short-answer",
+            "qual_name": "Q204",
+            "coded": false,
+            "contains_pii": false,
+            "convert_to_range": false,
+            "ignore": false
+        },
+        "T12": {
+            "question": "What specific information do you most often include when prompting AI to help with code review? (Select all that apply)",
+            "type": "multi-select-with-text-entry",
+            "qual_name": "Q205",
+            "options": [
+                "Code to be reviewed with context",
+                "Project coding standards and guidelines",
+                "Security or compliance requirements",
+                "Performance expectations",
+                "Previous review feedback",
+                "Description of feature or fix purpose",
+                "Related system components or dependencies",
+                "Common pitfalls in this domain or codebase",
+                "Other (please specify):"
+            ],
+            "text-entry-fields": [
+                "Other (please specify):"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "T13": {
+            "question": "Please elaborate on your prompting strategies for code review (Optional)",
+            "type": "short-answer",
+            "qual_name": "Q207",
+            "coded": false,
+            "contains_pii": false,
+            "convert_to_range": false,
+            "ignore": false
+        }
+    },
+    "Conversation Strategies": {
+        "C1": {
+            "question": "How often do you structure your conversations with AI tools for software engineering tasks in the following ways?",
+            "type": "matrix",
+            "qual_name": "Q208",
+            "options": [
+                "Single comprehensive prompt - Providing all requirements, context, and constraints in one detailed prompt",
+                "Incremental refinement - Starting with a basic request and iteratively refining based on AI responses",
+                "Step-by-step guidance - Breaking down complex problems into sequential steps for the AI to solve",
+                "Exploratory dialogue - Asking the AI to explore multiple solutions or approaches before implementation",
+                "Context building - Progressively adding more context and background information as the conversation develops",
+                "Feedback loop - Providing explicit feedback on AI responses to guide subsequent outputs",
+                "Template-based approach - Using consistent prompt templates adapted for specific task types",
+                "Multi-part problem solving - Dividing the task into sub-problems addressed in sequence",
+                "Comparative analysis - Having the AI generate multiple solutions for comparison"
+            ],
+            "answers": [
+                "Often",
+                "Sometimes",
+                "Rarely",
+                "Never"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "C2": {
+            "question": "When an AI response doesn't meet your needs, how often do you use each of the following strategies to guide it?",
+            "type": "matrix",
+            "qual_name": "Q56",
+            "options": [
+                "Point out specific issues - Identify exact problems or errors in the AI's response",
+                "Provide additional context - Add more background information or project details",
+                "Include example solutions - Share examples of the type of output you're looking for",
+                "Request explanations first - Ask the AI to explain its approach before making changes",
+                "Reformulate the original request - Restate your request using different wording or structure",
+                "Break down complex problems - Simplify the task into more manageable components",
+                "Add constraints or requirements - Specify additional limitations or criteria",
+                "Request alternative approaches - Ask for different solutions to the same problem",
+                "Provide feedback on partial solutions - Give feedback on specific parts that work while requesting improvements to others"
+            ],
+            "answers": [
+                "Often",
+                "Sometimes",
+                "Rarely",
+                "Never"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "C3": {
+            "question": "In your estimation, how many exchanges on average with the AI tool do you need to accomplish your immediate software engineering goal?",
+            "type": "single-select",
+            "qual_name": "Q210",
+            "options": [
+                "1",
+                "2-3",
+                "4-6",
+                "7-10",
+                "10+",
+                "Unsure"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        }
+    },
+    "Issues and Reliability with AI for Software Engineering": {
+        "R1": {
+            "question": "For which specific types of software engineering tasks do you regularly use AI tools? (Select all that apply)",
+            "type": "multi-select-with-text-entry",
+            "qual_name": "Q185",
+            "options": [
+                "Designing software and code architectures (e.g. software design, architectural patterns)",
+                "Implementing new code components (e.g. includes creating data structures, writing functions)",
+                "Setting up structural code (e.g. boilerplate, function headers, imports)",
+                "Optimizing existing code (e.g. performance improvements, reducing complexity)",
+                "Standardizing and cleaning code (e.g. style improvements, naming conventions, removing duplication)",
+                "Test creation and implementation (e.g. unit, integration, end-to-end test code)",
+                "Test strategy and planning (e.g. test case design, edge case identification)",
+                "Issue diagnosis (e.g. understanding errors, identifying root causes)",
+                "Bug fixing (e.g. resolving exceptions, fixing logical errors)",
+                "Code-level documentation (e.g. functions, classes, inline comments)",
+                "Project-level documentation (e.g. READMEs, architecture docs, API docs)",
+                "Code quality evaluation (e.g. style, maintainability, complexity)",
+                "Functional / performance assessment (e.g. efficiency, potential bugs, security vulnerabilities)",
+                "Others (please specify)"
+            ],
+            "text-entry-fields": [
+                "Others (please specify)"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "R2": {
+            "question": "How reliable do you find AI tools for each of these software engineering scenarios?",
+            "type": "matrix",
+            "qual_name": "C2",
+            "options": [
+                "Implementing complex algorithms (e.g. multiple edge cases, intricate logic flows, mathematical computations)",
+                "Creating code for system integration (e.g. connecting with external APIs, third-party libraries, services)",
+                "Modernizing outdated code patterns (e.g. updating to current language features, migrating between frameworks)",
+                "Refactoring for performance gains (e.g. optimizing algorithms, reducing resource consumption)",
+                "Test case design and coverage (e.g. identifying edge cases, appropriate test coverage, requirements validation)",
+                "Test code maintainability (e.g. generating maintainable tests, appropriate assertions, handling test dependencies)",
+                "Root cause analysis (e.g. diagnosing complex interactions, identifying underlying issues vs. symptoms)",
+                "Context-dependent bugs (e.g. environment-specific issues, legacy code problems)",
+                "Documenting implementation rationale (e.g. explaining the \"why\" behind decisions, architectural considerations)",
+                "Maintaining documentation accuracy (e.g. consistency with code changes, technical accuracy)",
+                "Contextual code understanding (e.g. comprehending business logic, project-specific patterns)",
+                "Non-functional requirements assessment (e.g. security vulnerabilities, performance implications)"
+            ],
+            "answers": [
+                "Very reliable",
+                "Somewhat reliable",
+                "Somewhat unreliable",
+                "Very unreliable",
+                "Unsure / Haven’t tried"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "R3": {
+            "question": "Please list any other software engineering scenarios not represented above which you have used generative AI tools for, and indicate their reliability.",
+            "type": "short-answer",
+            "qual_name": "Q60",
+            "coded": false,
+            "contains_pii": false,
+            "convert_to_range": false,
+            "ignore": false
+        },
+        "R4": {
+            "question": "How often do you encounter the following issues when using AI tools for software engineering tasks?",
+            "type": "matrix",
+            "qual_name": "Q186",
+            "options": [
+                "Code correctness and compatibility issues (e.g. hallucinated functions/APIs, incorrect syntax, compilation errors)",
+                "Codebase consistency issues (e.g. misalignment with existing code styles, violation of project architecture)",
+                "Unintended behavior changes (e.g. altering code functionality, introducing subtle bugs, breaking existing tests)",
+                "Incomplete code transformations (e.g. partial refactorings, inconsistent application of patterns)",
+                "Tests that miss actual requirements (e.g. tests don't verify intended behavior, miss important edge cases)",
+                "Low-value tests with inadequate coverage (e.g. superficial tests, insufficient test depth, overly implementation-specific)",
+                "Suggested bug fixes miss root causes (e.g. addressing symptoms instead of underlying issues, failure to diagnose complex issues)",
+                "Fixes that introduce new bugs (e.g. creating side effects, breaking other functionality)",
+                "Inaccurate or incomplete technical documentation (e.g. wrong details, missing important functions)",
+                "Superficial explanations of complex functionality (e.g. generic descriptions lacking technical depth)",
+                "Superficial code analysis (e.g. overlooking critical bugs, missing non-functional requirements)",
+                "False positives and hallucinations (e.g. flagging non-issues, hallucinating non-existent problems)"
+            ],
+            "answers": [
+                "Always",
+                "Often",
+                "Sometimes",
+                "Rarely",
+                "Never"
+            ],
+            "contains_pii": false,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        },
+        "R5": {
+            "question": "Please list any other issues you have encountered with generative AI not represented above, and indicate their frequency.",
+            "type": "short-answer",
+            "qual_name": "Q61",
+            "coded": false,
+            "contains_pii": false,
+            "convert_to_range": false,
+            "ignore": false
+        }
+    },
+    "Contact Information": {
+        "CI": {
+            "question": "Thank you so much for taking the time to complete this survey! Your response will help to increase the reliability and usefulness of generative AI tools. If you would be willing to be contacted for an interview to further explore prompting strategies and your responses to this survey, please enter your e-mail address below.",
+            "type": "single-text",
+            "qual_name": "CI",
+            "contains_pii": true,
+            "convert_to_range": false,
+            "coded": false,
+            "ignore": false
+        }
+    }
+}

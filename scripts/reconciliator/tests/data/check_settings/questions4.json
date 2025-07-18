@@ -1,0 +1,9 @@
+{
+    "Default Question Block": {
+        "Q1": {
+            "question": "Click to write the question text",
+            "type": "ranked",
+            "qual_name": "Q1"
+        }
+    }
+}

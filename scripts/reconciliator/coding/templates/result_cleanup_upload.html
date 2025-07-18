@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Upload Results Clean-up File</h1>
+
+    <form action="{% url 'createCleanupFile' %}" method="post" , enctype="multipart/form-data">
+        {% csrf_token %}
+
+        <p>You are uploading cleaned response data for the <b>{{ cur_survey }}</b> survey</p>
+
+        <p> Please upload your .csv file: </p>
+        <div style="padding: 1rem">
+            <input type="file" id="fileUpload" name="fileUpload" accept=".csv" required>
+            <p style="color: red; font-weight: bold; font-size: 0.9em">{{ error }}</p>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+    </form>
+
+    <p><a href=".." style="font-size: 0.9em">Back to Home Page</a></p>
+
+    <h3>What is a results clean-up file?</h3>
+    <p>Provide explanation here... and provide button to documentation</p> 
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Upload Your Workbook</h1>
+
+    <p>In order to continue to the code selection screen, you must first upload your .xlsx coding workbook.</p>
+
+    <form action="{% url 'chooseCodes' %}" method="post" , enctype="multipart/form-data">
+        {% csrf_token %}
+
+        <p>Your currently selected survey is: <b>{{ cur_survey }}</b></p>
+
+        <p> Please upload your .xlsx file: </p>
+        <div>
+            <input type="file" id="fileUpload" name="fileUpload" accept=".xlsx" required/>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <p><a href=".." style="font-size: 0.9em">Back to Home Page</a></p>
+{% endblock %}

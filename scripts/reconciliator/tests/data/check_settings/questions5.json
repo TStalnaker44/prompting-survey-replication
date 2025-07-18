@@ -1,0 +1,31 @@
+{
+    "Default Question Block": {
+        "Q2": {
+            "question": "Q1",
+            "type": "single-select",
+            "qual_name": "Q2",
+            "options": [
+                "Click to write Choice 1",
+                "Click to write Choice 2",
+                "Click to write Choice 3"
+            ]
+        }
+    },
+    "Another Block": {
+        "Valid question": {
+            "question": "Click to write the question text",
+            "type": "single-select",
+            "qual_name": "Valid question",
+            "options": [
+                "Click to write Choice 1",
+                "Click to write Choice 2",
+                "Click to write Choice 3"
+            ]
+        },
+        "Q2": {
+            "question": "Another Question?",
+            "type": "single-text",
+            "qual_name": "Q4"
+        }
+    }
+}

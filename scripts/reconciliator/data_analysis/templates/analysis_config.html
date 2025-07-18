@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Configure Data Analysis</h1>
+    <form action="{% url 'run_data_analysis' %}" method="post">
+        {% csrf_token %}
+
+        <p>You are configuring data analysis for: <b>{{ cur_survey }}</b></p>
+
+        <p>Has your response coding been finished?
+            <select id="coding_done" name="coding_done">
+                <option value="True">Yes</option>
+                <option value="False" selected>No</option>
+            </select></p>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+    </form>
+
+    <p><a href=".." style="font-size: 0.9em">Back to Home Page</a></p>
+{% endblock %}

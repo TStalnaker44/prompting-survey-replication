@@ -1,0 +1,335 @@
+{
+    "SurveyEntry": {
+        "SurveyID": "SV_23k5JCBtJ98XAaO",
+        "SurveyName": "Survey with branches",
+        "SurveyDescription": null,
+        "SurveyOwnerID": "UR_3r2FcprzgM8X6qD",
+        "SurveyBrandID": "qualtricsxmxrrjgcbdd",
+        "DivisionID": null,
+        "SurveyLanguage": "EN",
+        "SurveyActiveResponseSet": "RS_0Bfa7h3bsPaEcfA",
+        "SurveyStatus": "Inactive",
+        "SurveyStartDate": "0000-00-00 00:00:00",
+        "SurveyExpirationDate": "0000-00-00 00:00:00",
+        "SurveyCreationDate": "2024-11-17 09:24:35",
+        "CreatorID": "UR_3r2FcprzgM8X6qD",
+        "LastModified": "2024-11-17 09:26:48",
+        "LastAccessed": "0000-00-00 00:00:00",
+        "LastActivated": "0000-00-00 00:00:00",
+        "Deleted": null
+    },
+    "SurveyElements": [
+        {
+            "SurveyID": "SV_23k5JCBtJ98XAaO",
+            "Element": "BL",
+            "PrimaryAttribute": "Survey Blocks",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": [
+                {
+                    "Type": "Default",
+                    "Description": "Default Block",
+                    "ID": "BL_9vpCQ2CwpqnqdQa",
+                    "BlockElements": [{ "Type": "Question", "QuestionID": "QID1" }]
+                },
+                {
+                    "Type": "Trash",
+                    "Description": "Trash / Unused Questions",
+                    "ID": "BL_9WYidy1QmHucFdc",
+                    "BlockElements": [{ "Type": "Question", "QuestionID": "QID3" }]
+                },
+                {
+                    "Type": "Standard",
+                    "SubType": "",
+                    "Description": "Good",
+                    "ID": "BL_5o3QnQuCY3wZmyG",
+                    "BlockElements": [{ "Type": "Question", "QuestionID": "QID2" }]
+                },
+                {
+                    "Type": "Standard",
+                    "SubType": "",
+                    "Description": "Bad",
+                    "ID": "BL_cCqT46pJvw4oo5w",
+                    "BlockElements": [{ "Type": "Question", "QuestionID": "QID4" }]
+                }
+            ]
+        },
+        {
+            "SurveyID": "SV_23k5JCBtJ98XAaO",
+            "Element": "FL",
+            "PrimaryAttribute": "Survey Flow",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "Type": "Root",
+                "FlowID": "FL_1",
+                "Flow": [
+                    {
+                        "Type": "Block",
+                        "ID": "BL_9vpCQ2CwpqnqdQa",
+                        "FlowID": "FL_2",
+                        "Autofill": []
+                    },
+                    {
+                        "Type": "Branch",
+                        "FlowID": "FL_4",
+                        "Description": "New Branch",
+                        "BranchLogic": {
+                            "0": {
+                                "0": {
+                                    "LogicType": "Question",
+                                    "QuestionID": "QID1",
+                                    "QuestionIsInLoop": "no",
+                                    "ChoiceLocator": "q://QID1/SelectableChoice/1",
+                                    "Operator": "Selected",
+                                    "QuestionIDFromLocator": "QID1",
+                                    "LeftOperand": "q://QID1/SelectableChoice/1",
+                                    "Type": "Expression",
+                                    "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">What is 2 + 2</span> <span class=\"LeftOpDesc\">4</span> <span class=\"OpDesc\">Is Selected</span> "
+                                },
+                                "Type": "If"
+                            },
+                            "Type": "BooleanExpression"
+                        },
+                        "Flow": [
+                            {
+                                "Type": "Standard",
+                                "ID": "BL_5o3QnQuCY3wZmyG",
+                                "FlowID": "FL_6",
+                                "Autofill": []
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Branch",
+                        "FlowID": "FL_8",
+                        "Description": "New Branch",
+                        "BranchLogic": {
+                            "0": {
+                                "0": {
+                                    "LogicType": "Question",
+                                    "QuestionID": "QID1",
+                                    "QuestionIsInLoop": "no",
+                                    "ChoiceLocator": "q://QID1/SelectableChoice/2",
+                                    "Operator": "Selected",
+                                    "QuestionIDFromLocator": "QID1",
+                                    "LeftOperand": "q://QID1/SelectableChoice/2",
+                                    "Type": "Expression",
+                                    "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">What is 2 + 2</span> <span class=\"LeftOpDesc\">5</span> <span class=\"OpDesc\">Is Selected</span> "
+                                },
+                                "Type": "If"
+                            },
+                            "Type": "BooleanExpression"
+                        },
+                        "Flow": [
+                            {
+                                "Type": "Standard",
+                                "ID": "BL_cCqT46pJvw4oo5w",
+                                "FlowID": "FL_7",
+                                "Autofill": []
+                            }
+                        ]
+                    }
+                ],
+                "Properties": { "Count": 9 }
+            }
+        },
+        {
+            "SurveyID": "SV_23k5JCBtJ98XAaO",
+            "Element": "PL",
+            "PrimaryAttribute": "Preview Link",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "PreviewType": "Brand",
+                "PreviewID": "7b446d4d-d98e-4541-aa1a-09ba8550a0a0"
+            }
+        },
+        {
+            "SurveyID": "SV_23k5JCBtJ98XAaO",
+            "Element": "SO",
+            "PrimaryAttribute": "Survey Options",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "BackButton": "false",
+                "SaveAndContinue": "true",
+                "SurveyProtection": "PublicSurvey",
+                "BallotBoxStuffingPrevention": "false",
+                "NoIndex": "Yes",
+                "SecureResponseFiles": "true",
+                "SurveyExpiration": "None",
+                "SurveyTermination": "DefaultMessage",
+                "Header": "",
+                "Footer": "",
+                "ProgressBarDisplay": "None",
+                "PartialData": "+1 week",
+                "ValidationMessage": "",
+                "PreviousButton": "",
+                "NextButton": "",
+                "SurveyTitle": "Qualtrics Survey | Qualtrics Experience Management",
+                "SkinLibrary": "Qualtrics",
+                "SkinType": "templated",
+                "Skin": { "brandingId": null, "templateId": "*base", "overrides": null },
+                "NewScoring": 1,
+                "SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today."
+            }
+        },
+        {
+            "SurveyID": "SV_23k5JCBtJ98XAaO",
+            "Element": "SCO",
+            "PrimaryAttribute": "Scoring",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "ScoringCategories": [],
+                "ScoringCategoryGroups": [],
+                "ScoringSummaryCategory": null,
+                "ScoringSummaryAfterQuestions": 0,
+                "ScoringSummaryAfterSurvey": 0,
+                "DefaultScoringCategory": null,
+                "AutoScoringCategory": null
+            }
+        },
+        {
+            "SurveyID": "SV_23k5JCBtJ98XAaO",
+            "Element": "PROJ",
+            "PrimaryAttribute": "CORE",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": "1.1.0",
+            "Payload": { "ProjectCategory": "CORE", "SchemaVersion": "1.1.0" }
+        },
+        {
+            "SurveyID": "SV_23k5JCBtJ98XAaO",
+            "Element": "STAT",
+            "PrimaryAttribute": "Survey Statistics",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": { "MobileCompatible": true, "ID": "Survey Statistics" }
+        },
+        {
+            "SurveyID": "SV_23k5JCBtJ98XAaO",
+            "Element": "QC",
+            "PrimaryAttribute": "Survey Question Count",
+            "SecondaryAttribute": "4",
+            "TertiaryAttribute": null,
+            "Payload": null
+        },
+        {
+            "SurveyID": "SV_23k5JCBtJ98XAaO",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID3",
+            "SecondaryAttribute": "Click to write the question text",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Click to write the question text",
+                "DefaultChoices": false,
+                "DataExportTag": "Q3",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "DataVisibility": { "Private": false, "Hidden": false },
+                "Configuration": { "QuestionDescriptionOption": "UseText" },
+                "QuestionDescription": "Click to write the question text",
+                "Choices": {
+                    "1": { "Display": "Click to write Choice 1" },
+                    "2": { "Display": "Click to write Choice 2" },
+                    "3": { "Display": "Click to write Choice 3" }
+                },
+                "ChoiceOrder": ["1", "2", "3"],
+                "Validation": { "Settings": { "ForceResponse": "OFF", "Type": "None" } },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "QuestionID": "QID3"
+            }
+        },
+        {
+            "SurveyID": "SV_23k5JCBtJ98XAaO",
+            "Element": "RS",
+            "PrimaryAttribute": "RS_0Bfa7h3bsPaEcfA",
+            "SecondaryAttribute": "Default Response Set",
+            "TertiaryAttribute": null,
+            "Payload": null
+        },
+        {
+            "SurveyID": "SV_23k5JCBtJ98XAaO",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID4",
+            "SecondaryAttribute": "How did you get it wrong?",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "How did you get it wrong?",
+                "DefaultChoices": false,
+                "DataExportTag": "Q4",
+                "QuestionType": "TE",
+                "Selector": "SL",
+                "DataVisibility": { "Private": false, "Hidden": false },
+                "Configuration": { "QuestionDescriptionOption": "UseText" },
+                "QuestionDescription": "How did you get it wrong?",
+                "Validation": { "Settings": { "ForceResponse": "OFF", "Type": "None" } },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "SearchSource": { "AllowFreeResponse": "false" },
+                "QuestionID": "QID4"
+            }
+        },
+        {
+            "SurveyID": "SV_23k5JCBtJ98XAaO",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID1",
+            "SecondaryAttribute": "What is 2 + 2",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "What is 2 + 2",
+                "DataExportTag": "Q1",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "DataVisibility": { "Private": false, "Hidden": false },
+                "Configuration": { "QuestionDescriptionOption": "UseText" },
+                "QuestionDescription": "What is 2 + 2",
+                "Choices": { "1": { "Display": "4" }, "2": { "Display": "5" } },
+                "ChoiceOrder": [1, 2],
+                "Validation": { "Settings": { "ForceResponse": "OFF", "Type": "None" } },
+                "Language": [],
+                "NextChoiceId": 3,
+                "NextAnswerId": 1,
+                "QuestionID": "QID1"
+            }
+        },
+        {
+            "SurveyID": "SV_23k5JCBtJ98XAaO",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID2",
+            "SecondaryAttribute": "Yay you got it right!",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "Yay you got it right!",
+                "DefaultChoices": false,
+                "DataExportTag": "Q2",
+                "QuestionType": "MC",
+                "Selector": "SAVR",
+                "SubSelector": "TX",
+                "DataVisibility": { "Private": false, "Hidden": false },
+                "Configuration": { "QuestionDescriptionOption": "UseText" },
+                "QuestionDescription": "Yay you got it right!",
+                "Choices": {
+                    "1": { "Display": "Click to write Choice 1" },
+                    "2": { "Display": "Click to write Choice 2" },
+                    "3": { "Display": "Click to write Choice 3" }
+                },
+                "ChoiceOrder": ["1", "2", "3"],
+                "Validation": { "Settings": { "ForceResponse": "OFF", "Type": "None" } },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 1,
+                "QuestionID": "QID2"
+            }
+        }
+    ]
+}
