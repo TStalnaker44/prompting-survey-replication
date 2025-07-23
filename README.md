@@ -6,6 +6,7 @@
 - `image_credits.csv`: A CSV file containing the attribution information for the icons/images used in our manuscript. 
 - `survey_questions.pdf`: An anonymized PDF of the full survey text (including questions), as seen by participants, produced by Qualtrics.
 - `questions.json`: A JSON file of questions, their associated IDs, and other relevant information.
+- `Full GenAI Survey Results - Anonymized Results.csv`: A CSV spreadsheet containing the full survey results and open-ended response codings through July 8th (the cutoff date), with all personal identifiable information removed to preserve the anonymity of participants.
 
 ## What is Not Included
 In order to fully follow our approved protocol and for the sake of anonymity, individual responses are not included in this replication package.
