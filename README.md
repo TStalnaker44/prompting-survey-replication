@@ -8,4 +8,4 @@
 - `questions.json`: A JSON file of questions, their associated IDs, and other relevant information.
 - `Full GenAI Survey Results - Anonymized Results.csv`: A CSV spreadsheet containing the full survey results and open-ended response codings through July 8th (the cutoff date), with all personal identifiable information removed to preserve the anonymity of participants.
 
-NOTE: Some scripts may not run out of the box.  They require data files in order to function properly.
+NOTE: Some scripts may not run out of the box.  They require the original source data files (not anonymized) in order to function properly.
